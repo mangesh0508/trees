@@ -1,0 +1,118 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+  background-color: #E4F1FF;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  font-size: 1.1em;
+}
+
+.input-array{
+    width: 40%;
+}
+
+label  {
+  font-size: 1.1em;
+}
+
+#title {
+  
+  background-color: rgb(20, 12, 48);
+  font-size: 1.1em;
+  color: white;
+  
+  border: none;
+  border-radius: 3px;
+  font-weight: normal;
+  font-size: 1.75em;
+
+}
+
+#blurb {
+  background-color: rgba(255, 255, 255, 0.386);
+  text-align: center;
+  margin: 1em auto 1em auto;
+  width: 500px;
+  padding: .5em;
+  border-radius: 5px;
+}
+
+#visual-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-bottom: .5em;
+}
+
+#array-visual {
+  margin: 1em;
+}
+
+header {
+  background-color: rgb(20, 12, 48);
+  
+  background-size: cover;
+  width: 100%;
+  padding: 1em;
+  color:black;
+}
+
+button {
+  margin-top: 1em;
+  margin-left: 20px;
+  background-color: #AED2FF;
+  font-size: 1.1em;
+  color: rgb(20, 12, 48);
+  padding: .25em .5em .25em .5em;
+  font-weight: 1000;
+  padding: 15px  30px ;
+  border: none;
+  border-radius: 1.5px;
+  font-weight: normal;
+}
+
+button:hover{
+  transition: 0.3s ease-in;
+  box-shadow: 2px gray;
+  color: white;
+  font-weight: 800;
+  background-color:rgb(20, 12, 48);
+  cursor: pointer;
+}
+
+rect:hover, circle:hover, text.circle:hover, text.rect:hover {
+  cursor: pointer;
+}
+
+.subtext {
+  font-size: .8em;
+  font-weight: 400;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
